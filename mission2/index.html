@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .card-horizontal {
+      display: flex;
+      flex: 1 1 auto;
+    }
+
+    .img-square-wrapper {
+      flex-shrink: 0;
+      /* Hindari penyusutan gambar */
+      margin-bottom: -25px;
+    }
+
+    .img-responsive {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-8">
+        <h4 id="cont_mem">Member :</h4>
+        <div id="container_member"></div>
+      </div>
+      <div class="col-sm-4">
+        <h4 id="cont_follow">Follow :</h4>
+        <div id="container_follow"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
